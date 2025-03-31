@@ -55,7 +55,9 @@ Entorno: Visual Studio Code, Jupyter Notebook
 |
 ├── 📄 README.md              # Documentación
 └── 📄 presentacion.pdf       # Informe
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------❤️ Welcome to my Machine Learning Project!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+❤️ Welcome to my Machine Learning Project!
 
 Heart diseases, also known as cardiovascular diseases, encompass a wide range of disorders that affect both the heart and the circulatory system. These conditions represent one of the leading causes of disability worldwide. Since the heart is one of the most important organs in the body, any disease affecting it can also impact other organs and body systems. 
 
