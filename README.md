@@ -11,12 +11,13 @@ Estas afecciones pueden derivar en insuficiencia cardíaca o infarto de miocardi
 Según datos de la Real Academia Nacional de Medicina de España, en 2023 las enfermedades del sistema circulatorio fueron la segunda causa de muerte, con 114.685 fallecimientos, representando el 26,5% del total de defunciones. ​
 Los datos provisionales indican que el 27,1% de las muertes en España durante este período se debieron a enfermedades del sistema circulatorio, mientras que los tumores representaron el 25,8%.
 
-Por lo tanto, el objetivo de este proyecto es explorar el conjunto de datos relacionado con las enfermedades cardíacas mediante un análisis exploratorio de datos (EDA).
+Por lo tanto, el objetivo de este proyecto es explorar el conjunto de datos relacionado con las enfermedades cardíacas mediante un análisis exploratorio de datos (EDA)
 y aplicar algoritmos de clasificación para realizar predicciones.
 
 📊 Datos
 
-El conjunto de datos Heart Disease UCI proviene del UCI Machine Learning Repository (repositorio de aprendizaje automático de la Universidad de California, Irvine), que es una de las fuentes más conocidas para datasets de clasificación en Machine Learning. Este conjunto de datos es ampliamente utilizado en proyectos de clasificación relacionados con enfermedades cardíacas y se ha utilizado en varios estudios y tutoriales de Machine Learning.
+El conjunto de datos Heart Disease UCI proviene del UCI Machine Learning Repository (repositorio de aprendizaje automático de la Universidad de California, Irvine),
+que es una de las fuentes más conocidas para datasets de clasificación en Machine Learning. Este conjunto de datos es ampliamente utilizado en proyectos de clasificación relacionados con enfermedades cardíacas.
 
 Repositorio: UCI Machine Learning Repository - Heart Disease Dataset
 
@@ -29,17 +30,19 @@ Propósito: Este conjunto de datos fue creado para predecir la presencia de enfe
 🤖 Modelos Utilizados
 Se probaron varios modelos y se seleccionaron los de mejor desempeño:
 
-* Regresión Lineal
+* Logistic Regression
+* Neive Bayes
 * Random Forest Regressor
-* XGBoost Regressor
-* CatBoost Regressor (mejor balance entre rendimiento y generalización)
-
-
+* Extreme Gradient Boost
+* K-Nearest Neighbor
+* Desion Tree
+* Support Vector Classifier
+* Stacking Classifier
 
 
 🛠️ Tecnologías Utilizadas
 Lenguaje: Python 
-Librerías: Pandas, NumPy, Scikit-learn, XGBoost, CatBoost, Matplotlib, Seaborn, Scipy, Joblib
+Librerías: Pandas, NumPy, Scikit-learn, Sklearn, Matplotlib, Seaborn, Scipy
 Entorno: Visual Studio Code, Jupyter Notebook
 📁 Estructura del Proyecto
 |── 📂 src/
@@ -51,12 +54,50 @@ Entorno: Visual Studio Code, Jupyter Notebook
 |   ├── 📂 utils/                
 |
 ├── 📄 README.md              # Documentación
-└── 📄 presentacion.pdf       # Presentación/informe
+└── 📄 presentacion.pdf       # Informe
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------❤️ Welcome to my Machine Learning Project!
 
+Heart diseases, also known as cardiovascular diseases, encompass a wide range of disorders that affect both the heart and the circulatory system. These conditions represent one of the leading causes of disability worldwide. Since the heart is one of the most important organs in the body, any disease affecting it can also impact other organs and body systems. 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Heart diseases, also known as cardiovascular diseases, encompass a wide variety of disorders that affect both the heart and the circulatory system. These conditions are one of the leading causes of disability worldwide. Since the heart is one of the most vital organs in the body, any disease affecting it can also impact other organs and systems. There are various types of heart diseases, with the most common being those that cause narrowing or blockage of the coronary arteries, malfunctioning of the heart valves, heart enlargement, among others. These conditions can lead to heart failure or myocardial infarction.
+There are different types of heart diseases, with the most common ones causing narrowing or blockage of the coronary arteries, malfunctioning of the heart valves, heart enlargement, among others. These conditions can lead to heart failure or myocardial infarction.
 
-Cardiovascular diseases (CVDs) continue to be one of the leading causes of mortality globally. According to data from the Real Academia Nacional de Medicina of Spain, in 2023, diseases of the circulatory system were the second leading cause of death, with 114,685 deaths, representing 26.5% of total deaths. Provisional data indicates that 27.1% of deaths in Spain during this period were due to diseases of the circulatory system, while tumors accounted for 25.8%.
+Cardiovascular diseases (CVD) continue to be one of the leading causes of mortality worldwide. According to data from the Royal National Academy of Medicine of Spain, in 2023, circulatory system diseases were the second leading cause of death, with 114,685 fatalities, representing 26.5% of total deaths. Provisional data indicate that 27.1% of deaths in Spain during this period were due to circulatory system diseases, while tumors accounted for 25.8%.
 
-Therefore, the goal of this project is to explore the heart disease dataset using exploratory data analysis (EDA) and apply classification algorithms to make predictions.
+Therefore, the objective of this project is to explore the dataset related to heart diseases through an Exploratory Data Analysis (EDA) and apply classification algorithms to make predictions.
+
+📊 Data
+
+The Heart Disease UCI dataset comes from the UCI Machine Learning Repository, one of the most well-known sources for classification datasets in Machine Learning. This dataset is widely used in classification projects related to heart diseases.
+
+Repository: UCI Machine Learning Repository - Heart Disease Dataset  
+Year of Publication: 1988  
+Purpose: This dataset was created to predict the presence of heart disease.
+
+🤖 Models Used
+Several models were tested, and the best-performing ones were selected:
+
+* Logistic Regression  
+* Naive Bayes  
+* Random Forest Regressor  
+* Extreme Gradient Boost  
+* K-Nearest Neighbor  
+* Decision Tree  
+* Support Vector Classifier  
+* Stacking Classifier  
+
+🛠️ Technologies Used  
+Language: Python  
+Libraries: Pandas, NumPy, Scikit-learn, Sklearn, Matplotlib, Seaborn, Scipy  
+Environment: Visual Studio Code, Jupyter Notebook  
+
+📁 Project Structure  
+|── 📂 src/  
+|   ├── 📂 data/  
+|   ├── 📂 imgs/  
+|   ├── 📂 models/  
+|   ├── 📂 notebooks/  
+|   ├── 📂 results_notebook/  
+|   ├── 📂 utils/  
+|  
+├── 📄 README.md              # Documentation  
+└── 📄 presentation.pdf       # Report
